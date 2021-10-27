@@ -46,6 +46,11 @@
   .solutions__list {
     display: block;
   }
+
+  img {
+    width: 80%;
+    height: auto;
+  }
 }
 
 .solutions__list-item {

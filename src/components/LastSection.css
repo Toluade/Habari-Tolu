@@ -4,6 +4,12 @@
   align-items: center;
 }
 
+@media screen and (max-width: 1023px) {
+  .last-section {
+    display: block;
+  }
+}
+
 .last-section .text {
   width: 60%;
 }
