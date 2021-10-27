@@ -5,6 +5,12 @@
   margin-bottom: 25rem;
 }
 
+@media screen and (max-width: 1023px) {
+  .solutions {
+    display: block;
+  }
+}
+
 .solutions div {
   width: 43rem;
 }
@@ -34,6 +40,12 @@
 .solutions__list {
   display: grid;
   grid-template-columns: 1fr 1fr;
+}
+
+@media screen and (max-width: 1023px) {
+  .solutions__list {
+    display: block;
+  }
 }
 
 .solutions__list-item {

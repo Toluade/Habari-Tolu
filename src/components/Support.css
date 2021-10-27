@@ -20,6 +20,12 @@
   gap: 4rem;
 }
 
+@media screen and (max-width: 1023px) {
+  .support__options {
+    display: block;
+  }
+}
+
 .support__option-item {
   background: var(--grey-background);
   padding: 4rem 2rem 2rem 2rem;

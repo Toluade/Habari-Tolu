@@ -8,6 +8,12 @@
   padding-bottom: 7rem;
 }
 
+@media screen and (max-width: 1023px) {
+  .block {
+    display: block;
+  }
+}
+
 .block .block__tagline {
   font-family: Bahij-Nazanin-Bold;
   font-size: 6.4rem;
