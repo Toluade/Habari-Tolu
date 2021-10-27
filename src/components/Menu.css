@@ -1,0 +1,26 @@
+/* Menu */
+
+h1 {
+  font-size: 3rem;
+}
+
+.nav__list {
+  list-style: none;
+  display: flex;
+  justify-content: flex-end;
+  padding: 20px 0;
+  border-bottom: 1px solid var(--grey-border);
+  border-top: 1px solid var(--grey-border);
+}
+.nav__list-item {
+  font-size: 1.3rem;
+  padding: 0 15px;
+  color: var(--text-color1);
+}
+.nav__list-item img {
+  height: 1.5rem;
+}
+
+.nav__list .flag {
+  border-left: 1px solid var(--grey-border);
+}

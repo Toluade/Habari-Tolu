@@ -1,0 +1,52 @@
+.support {
+  margin-bottom: 25rem;
+}
+
+.blue-text {
+  color: var(--blue);
+  background: var(--blue-background);
+
+  border-bottom: 2px solid var(--blue-border);
+  width: 6rem;
+}
+
+.support__header {
+  width: 60%;
+}
+
+.support__options {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 4rem;
+}
+
+.support__option-item {
+  background: var(--grey-background);
+  padding: 4rem 2rem 2rem 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.support__option-item img {
+  height: 4rem;
+}
+
+.support-title,
+.desc {
+  font-size: 1.4rem;
+  color: var(--text-color1);
+}
+
+.support-title {
+  font-weight: 700;
+}
+
+.support-link {
+  font-size: 1.4rem;
+  color: var(--blue);
+}
+
+.support-link .MuiSvgIcon-root {
+  margin: 0 4rem -0.3rem 0;
+}

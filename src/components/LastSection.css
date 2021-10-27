@@ -1,0 +1,30 @@
+.last-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.last-section .text {
+  width: 60%;
+}
+
+.green {
+  color: var(--green-text);
+  background: var(--green-background);
+  border-bottom: 2px solid var(--green-border);
+  width: 12rem;
+}
+
+.block__tagline {
+  font-family: Bahij-Nazanin-Bold;
+  font-size: 6.4rem;
+  line-height: 100%;
+  color: var(--text-color1);
+}
+
+.highlighted-text {
+  font-size: 6.4rem;
+  height: 6.2rem;
+  width: 24.3rem;
+  display: inline-block;
+}

@@ -1,13 +1,41 @@
+:root {
+  --text-color1: #2a2d4a;
+  --text-color2: #a4a3a3;
+  --grey-border: #b5b5b540;
+  --blue: #0177ff;
+  --blue-background: #e5f1ff;
+  --blue-border: #b8d8ff;
+  --green: #2eb36c;
+  --green-text: #2fb46d;
+  --green-background: #e6f7f1;
+  --green-border: #a5e2c9;
+  --purple: #5033e7;
+  --purple-background: #edeafd;
+  --purple-border: #bcb1f6;
+  --orange: #ee8649;
+  --orange-background: #fff3e9;
+  --orange-border: #fdc8ae;
+  --grey-background: #f6fafb;
+}
+
+@font-face {
+  font-family: Bahij-Nazanin-Bold;
+  src: url("./font/Bahij-Nazanin-Bold.ttf");
+}
+
+* {
+  font-size: 62.5%;
+}
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }

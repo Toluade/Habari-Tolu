@@ -1,0 +1,94 @@
+/* First block */
+
+.block {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-top: 15rem;
+  border-bottom: 1px solid var(--grey-border);
+  padding-bottom: 7rem;
+}
+
+.block .block__tagline {
+  font-family: Bahij-Nazanin-Bold;
+  font-size: 6.4rem;
+  line-height: 100%;
+  color: var(--text-color1);
+}
+
+.highlighted-text {
+  font-size: 6.4rem;
+  height: 6.2rem;
+  width: 24.3rem;
+  display: inline-block;
+}
+
+.blue {
+  color: var(--blue);
+  background: var(--blue-background);
+
+  border-bottom: 5px solid var(--blue-border);
+}
+
+.block .block__description {
+  font-size: 1.5rem;
+  color: var(--text-color1);
+  line-height: 190%;
+}
+
+.block__button {
+  font-size: 1.3rem;
+  font-weight: 700;
+  color: white;
+  padding: 1.3rem 3rem;
+  border: none;
+  border-radius: 5px;
+  margin-top: 3rem;
+}
+
+.green {
+  background-color: var(--green);
+}
+
+/* Product pros */
+
+.pros {
+  margin-top: 5rem;
+  margin-bottom: 25rem;
+}
+
+.pros__list {
+  list-style: none;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.pros__list div {
+  display: flex;
+  margin-left: 5rem;
+}
+
+.pros__list .MuiSvgIcon-root {
+  color: var(--blue);
+  font-size: 3rem;
+  padding-right: 2rem;
+}
+
+.pros__list-item {
+  font-size: 1.4rem;
+  font-weight: 600;
+  color: var(--text-color1);
+  line-height: 180%;
+}
+
+.grey-text {
+  color: var(--text-color2);
+  font-size: 1.4rem;
+}
+
+.pros p {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: var(--text-color2);
+  text-align: center;
+  margin-top: 6rem;
+}
