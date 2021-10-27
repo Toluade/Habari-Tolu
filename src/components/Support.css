@@ -24,6 +24,9 @@
   .support__options {
     display: block;
   }
+  .subtitle {
+    line-height: 100%;
+  }
 }
 
 .support__option-item {
